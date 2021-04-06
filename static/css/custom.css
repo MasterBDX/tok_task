@@ -1,0 +1,39 @@
+:root {
+    --color:#7587c3;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+/* =====================================  */
+/* Navbar Styles */
+/* =====================================  */
+.main-navbar{
+    background-color:var(--color);
+    color:whitesmoke;
+}
+.main-navbar .nav-link{
+    color:whitesmoke !important;
+}
+
+.main-navbar .navbar-brand{
+    color: whitesmoke;
+}
+/* =====================================  */
+/* Footer Styles */
+/* =====================================  */
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+.footer,
+.push {
+    height: 50px;
+}
+
+.footer{
+    background-color:var(--color);
+}

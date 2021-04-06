@@ -9,7 +9,7 @@ BASE_URL = 'http://website-name.com/'
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 

@@ -1,0 +1,48 @@
+.Navbar{
+    background-color: #6f67ef;
+}
+.Navbar ul
+{
+    margin-left: auto;
+}
+.Navbar li{
+    margin-left: 10px;
+    
+}
+.Navbar a{
+    color:whitesmoke;
+    border-radius: 10px;
+
+}
+
+.Navbar ul li a:hover{
+
+}
+
+.Button{
+    border-color: whitesmoke;
+    color: #6f67ef;
+}
+
+
+@media (max-width:991px) {
+    .Navbar ul li{
+        margin-top: 14px;
+    }
+    .Navbar ul li a{
+        padding: 6px 12px !important;
+        transition: .5s;
+        
+    }
+    .Navbar ul li a:hover,
+    .Navbar ul li a:focus,
+    .Navbar ul li a:active
+    {
+        box-shadow: 0 0 3px whitesmoke; 
+        padding-left: 20px !important;  
+    }
+}
+
+.Active{
+
+}

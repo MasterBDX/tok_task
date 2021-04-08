@@ -1,0 +1,11 @@
+.Footer{
+    background-color: #6f67ef;
+    color: whitesmoke;
+    height: 50px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.Footer a{
+    color: #6f67ef;
+}

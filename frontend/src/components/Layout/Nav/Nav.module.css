@@ -1,5 +1,5 @@
 .Navbar{
-    background-color: #6f67ef;
+    background-color: #1282b9;
 }
 .Navbar ul
 {
@@ -10,7 +10,7 @@
     
 }
 .Navbar a{
-    color:whitesmoke;
+    color:white !important;
     border-radius: 10px;
 
 }
@@ -20,8 +20,8 @@
 }
 
 .Button{
-    border-color: whitesmoke;
-    color: #6f67ef;
+    border-color: white;
+    color: #1282b9;
 }
 
 
@@ -38,7 +38,7 @@
     .Navbar ul li a:focus,
     .Navbar ul li a:active
     {
-        box-shadow: 0 0 3px whitesmoke; 
+        box-shadow: 0 0 3px white; 
         padding-left: 20px !important;  
     }
 }

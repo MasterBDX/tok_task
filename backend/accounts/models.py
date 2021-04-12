@@ -81,7 +81,7 @@ class UserProfile(models.Model):
     updated = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return self.user + ' profile'
+        return self.user.username + ' Profile'
     
     def get_avatar(self):
         try:

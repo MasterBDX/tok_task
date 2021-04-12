@@ -8,6 +8,7 @@ MYBASE = Path(__file__).resolve().parent.parent
 FOLDER_NAME = os.path.basename(MYBASE)
 
 
+
 # Application definition
 
 INSTALLED_APPS = [

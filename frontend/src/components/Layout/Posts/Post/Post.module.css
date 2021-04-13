@@ -20,7 +20,7 @@
     top: 7px;
     left: 7px;
     display: grid;
-    grid-template-columns: 84% 12%;
+    grid-template-columns: 100%;
 }
 
 .Link{
@@ -42,3 +42,35 @@
 .Link:active{
     color: #00ff70;
 }
+
+.DATE{
+    text-align: right;
+    margin-top: 10px;
+}
+
+/*  Medial Query  */
+@media (max-device-width: 1160px) {
+    .Grid{
+        grid-template-columns: 10% 90%;
+    }
+
+}
+
+@media (max-device-width: 960px) {
+    .Grid{
+        grid-template-columns: 13% 87%;
+    }
+    
+
+}
+
+@media (max-device-width: 550px) {
+    .Grid{
+        grid-template-columns: 100%;
+    }
+    .Grid > div:first-child{
+        text-align: center !important;
+    }
+
+}
+    

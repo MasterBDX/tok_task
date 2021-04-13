@@ -21,7 +21,7 @@ const post = (props) => {
                     <div className={classes.Grid}>
                         <div>
                             
-                            <img className={classes.Avatar} 
+                            <img className={[classes.Avatar,'text-left'].join(' ')} 
                                  src={props.details.user.image} />
                         </div>
                         
@@ -33,7 +33,7 @@ const post = (props) => {
                                 <br />
                                 {newContent}
                             </div>
-                            <div>
+                            <div className={classes.DATE}>
                                 {props.details.timestamp}
                             </div>
                         </div>

@@ -33,7 +33,7 @@ const post = (props) => {
                                 <br />
                                 {newContent}
                             </div>
-                            <div className={classes.DATE}>
+                            <div className={classes.Date}>
                                 {props.details.timestamp}
                             </div>
                         </div>

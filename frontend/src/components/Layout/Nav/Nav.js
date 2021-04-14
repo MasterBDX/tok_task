@@ -20,7 +20,7 @@ const navbar = () => {
                              <NavLink className="nav-link" to="/posts" activeClassName={classes.Active}>News</NavLink>
                         </li>
                         <li  className="nav-item">
-                             <NavLink className="nav-link" to="/posts" activeClassName={classes.Active}>
+                             <NavLink className="nav-link" to="/posts/add" activeClassName={classes.Active}>
                                  <div className={classes.ICON_CON}>
                                 <span className="d-lg-none d-inline">New Post</span>
                                  <span className="d-lg-inline d-none">

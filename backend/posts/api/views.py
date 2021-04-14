@@ -5,6 +5,10 @@ from rest_framework.generics import ( ListAPIView,
                                       DestroyAPIView)
 from rest_framework.permissions import IsAuthenticated
 
+from django.contrib.auth import get_user_model
+
+User = get_user_model()
+
 from .serializers import PostSerailizer,AddPostSerializer
 from posts.models import Post
 

@@ -1,3 +1,5 @@
+from rest_framework.authtoken.models import Token
+
 from django.db.models.signals import pre_save, post_save
 from django.dispatch import receiver
 
@@ -15,3 +17,4 @@ def get_user_slug(sender, instance, **kwargs):
 def create_user_profile(sender, instance, created, **kwargs):
     if created:
         UserProfile.objects.get_or_create(user=instance)
+        Token.objects.create(user=instance)

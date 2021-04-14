@@ -19,3 +19,10 @@ class PostSerailizer(serializers.ModelSerializer):
     
     def get_timestamp(self,obj):
         return obj.timestamp.strftime('%-d / %b %Y')
+
+
+class AddPostSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Post
+        fields = ['content']
+        
